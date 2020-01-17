@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="kanbanTest.KanbanTest">
+        <methods>
+          <include name="verifyTextHeader"/>
+          <include name="beforeclass"/>
+          <include name="afterSuit"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterclass"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- kanbanTest.KanbanTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
