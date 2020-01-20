@@ -54,6 +54,7 @@ public class KanbanTest extends Testbase {
 		} finally {
 			result = Reporter.getCurrentTestResult();
 		}
+		
 
 	}
 
@@ -91,10 +92,6 @@ public class KanbanTest extends Testbase {
 
 	}
 
-	@AfterTest
-	void afterTest() throws IOException {
-
-	}
 
 	@AfterSuite
 
