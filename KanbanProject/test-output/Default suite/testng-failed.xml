@@ -5,10 +5,10 @@
     <classes>
       <class name="kanbanTest.KanbanTest">
         <methods>
+          <include name="verifyTextHeader"/>
           <include name="beforeclass"/>
           <include name="afterSuit"/>
           <include name="beforeTest"/>
-          <include name="verifyResponseStatusCode"/>
           <include name="afterMethod"/>
           <include name="afterclass"/>
           <include name="afterTest"/>
