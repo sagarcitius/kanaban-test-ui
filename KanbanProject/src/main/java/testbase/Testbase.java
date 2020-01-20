@@ -24,7 +24,7 @@ public class Testbase
 	options.addArguments("disable-infobars");
 	dc.setCapability(ChromeOptions.CAPABILITY, options);
 	
-	 String host = "35.230.246.81";// Host needs to change as perrequirement
+	 String host = readProp.readPropertiesConfig("host");// Host needs to change as perrequirement
 	 driver = new RemoteWebDriver(new URL("http://" + host +":4444/grid/register"), dc); // new URL needs to change as per // requiremnet
 
 //	System.setProperty("webdriver.chrome.driver",

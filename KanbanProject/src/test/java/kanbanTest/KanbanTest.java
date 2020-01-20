@@ -54,12 +54,11 @@ public class KanbanTest extends Testbase {
 		} finally {
 			result = Reporter.getCurrentTestResult();
 		}
-		
+
 	}
 
 	@Test
 	public void verifyResponseStatusCode() throws MalformedURLException, IOException {
-
 		extReport.createEntryInReport("Verify Response StatusCode");
 		link = new URL(readProp.readPropertiesConfig("appURL"));
 		httpConn = (HttpURLConnection) link.openConnection();
@@ -69,12 +68,10 @@ public class KanbanTest extends Testbase {
 			if (httpConn.getResponseCode() == 200) {
 				System.out.println(link + " - " + httpConn.getResponseMessage() + " and Response code is "
 						+ httpConn.getResponseCode());
-			} 
-			else  
-			{
-			String responsecode=String.valueOf(httpConn.getResponseCode());
-				Assert.assertEquals(responsecode, "200","malformed url");
-			
+			} else {
+				String responsecode = String.valueOf(httpConn.getResponseCode());
+				Assert.assertEquals(responsecode, "200", "malformed url");
+
 			}
 		} finally {
 			result = Reporter.getCurrentTestResult();
@@ -89,8 +86,7 @@ public class KanbanTest extends Testbase {
 	}
 
 	@AfterClass
-	void afterclass() throws IOException
-	{
+	void afterclass() throws IOException {
 		driver.close();
 
 	}
