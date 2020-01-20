@@ -19,6 +19,10 @@ public class Testbase
 	public static void intialization1() throws MalformedURLException
 	{
 	// Create object of DesiredCapabilities class
+		System.setProperty("webdriver.chrome.driver",
+				System.getProperty("user.dir")+"/src/main/java/driver/chromedriver.exe");
+		
+	//	C:\Users\swatig\git\repository\KanbanProject\src\main\java\driver\chromedriver.exe
 	DesiredCapabilities dc = DesiredCapabilities.chrome();
 	ChromeOptions options = new ChromeOptions();
 	options.addArguments("disable-infobars");
