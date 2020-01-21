@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22091" started-at="2020-01-20T11:40:25Z" finished-at="2020-01-20T11:40:47Z">
+  <suite name="Default suite" duration-ms="21641" started-at="2020-01-21T13:16:44Z" finished-at="2020-01-21T13:17:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22091" started-at="2020-01-20T11:40:25Z" finished-at="2020-01-20T11:40:47Z">
+    <test name="Default test" duration-ms="21641" started-at="2020-01-21T13:16:44Z" finished-at="2020-01-21T13:17:06Z">
       <class name="kanbanTest.KanbanTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:kanbanTest.KanbanTest@1d057a39]" name="beforeTest" is-config="true" duration-ms="6" started-at="2020-01-20T17:10:25Z" finished-at="2020-01-20T17:10:25Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:kanbanTest.KanbanTest@475530b9]" name="beforeTest" is-config="true" duration-ms="7" started-at="2020-01-21T18:46:44Z" finished-at="2020-01-21T18:46:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeclass()[pri:0, instance:kanbanTest.KanbanTest@1d057a39]" name="beforeclass" is-config="true" duration-ms="121" started-at="2020-01-20T17:10:25Z" finished-at="2020-01-20T17:10:25Z">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:kanbanTest.KanbanTest@475530b9]" name="beforeclass" is-config="true" duration-ms="123" started-at="2020-01-21T18:46:44Z" finished-at="2020-01-21T18:46:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method status="PASS" signature="verifyResponseStatusCode()[pri:0, instance:kanbanTest.KanbanTest@1d057a39]" name="verifyResponseStatusCode" duration-ms="48" started-at="2020-01-20T17:10:25Z" finished-at="2020-01-20T17:10:25Z">
+        <test-method status="PASS" signature="verifyResponseStatusCode()[pri:0, instance:kanbanTest.KanbanTest@475530b9]" name="verifyResponseStatusCode" duration-ms="34" started-at="2020-01-21T18:46:44Z" finished-at="2020-01-21T18:46:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResponseStatusCode -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:kanbanTest.KanbanTest@1d057a39]" name="afterMethod" is-config="true" duration-ms="19" started-at="2020-01-20T17:10:25Z" finished-at="2020-01-20T17:10:25Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:kanbanTest.KanbanTest@475530b9]" name="afterMethod" is-config="true" duration-ms="10" started-at="2020-01-21T18:46:44Z" finished-at="2020-01-21T18:46:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="FAIL" signature="verifyTextHeader()[pri:0, instance:kanbanTest.KanbanTest@1d057a39]" name="verifyTextHeader" duration-ms="21869" started-at="2020-01-20T17:10:25Z" finished-at="2020-01-20T17:10:47Z">
+        <test-method status="FAIL" signature="verifyTextHeader()[pri:0, instance:kanbanTest.KanbanTest@475530b9]" name="verifyTextHeader" duration-ms="21441" started-at="2020-01-21T18:46:44Z" finished-at="2020-01-21T18:47:06Z">
           <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
@@ -40,7 +40,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:143)
-	at testbase.Testbase.intialization1(Testbase.java:28)
+	at testbase.Testbase.intialization1(Testbase.java:33)
 	at kanbanTest.KanbanTest.verifyTextHeader(KanbanTest.java:47)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -110,15 +110,15 @@ Caused by: java.net.ConnectException: Connection timed out: connect
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTextHeader -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:kanbanTest.KanbanTest@1d057a39]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-01-20T17:10:47Z" finished-at="2020-01-20T17:10:47Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:kanbanTest.KanbanTest@475530b9]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-01-21T18:47:06Z" finished-at="2020-01-21T18:47:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="FAIL" signature="afterclass()[pri:0, instance:kanbanTest.KanbanTest@1d057a39]" name="afterclass" is-config="true" duration-ms="0" started-at="2020-01-20T17:10:47Z" finished-at="2020-01-20T17:10:47Z">
+        <test-method status="FAIL" signature="afterclass()[pri:0, instance:kanbanTest.KanbanTest@475530b9]" name="afterclass" is-config="true" duration-ms="0" started-at="2020-01-21T18:47:06Z" finished-at="2020-01-21T18:47:06Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-	at kanbanTest.KanbanTest.afterclass(KanbanTest.java:90)
+	at kanbanTest.KanbanTest.afterclass(KanbanTest.java:91)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -150,11 +150,7 @@ Caused by: java.net.ConnectException: Connection timed out: connect
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterclass -->
-        <test-method status="SKIP" signature="afterTest()[pri:0, instance:kanbanTest.KanbanTest@1d057a39]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-01-20T17:10:47Z" finished-at="2020-01-20T17:10:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="SKIP" signature="afterSuit()[pri:0, instance:kanbanTest.KanbanTest@1d057a39]" name="afterSuit" is-config="true" duration-ms="0" started-at="2020-01-20T17:10:47Z" finished-at="2020-01-20T17:10:47Z">
+        <test-method status="SKIP" signature="afterSuit()[pri:0, instance:kanbanTest.KanbanTest@475530b9]" name="afterSuit" is-config="true" duration-ms="0" started-at="2020-01-21T18:47:06Z" finished-at="2020-01-21T18:47:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuit -->

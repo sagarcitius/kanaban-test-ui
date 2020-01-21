@@ -5,6 +5,7 @@ import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -29,7 +30,7 @@ public class Testbase
 	dc.setCapability(ChromeOptions.CAPABILITY, options);
 	
 	 String host = readProp.readPropertiesConfig("host");// Host needs to change as perrequirement
-	 driver = new RemoteWebDriver(new URL("http://" + host +":4444/grid/register"), dc); // new URL needs to change as per // requiremnet
+	 driver = new RemoteWebDriver(new URL("http://" + host +":4444/wd/hub/"), dc); // new URL needs to change as per // requiremnet
 
 //	System.setProperty("webdriver.chrome.driver",
 //			"C:\\Users\\swatig\\eclipse-workspace\\KanbanProject\\src\\main\\java\\driver\\chromedriver.exe");

@@ -11,7 +11,6 @@
           <include name="beforeTest"/>
           <include name="afterMethod"/>
           <include name="afterclass"/>
-          <include name="afterTest"/>
         </methods>
       </class> <!-- kanbanTest.KanbanTest -->
     </classes>
