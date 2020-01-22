@@ -38,7 +38,7 @@
 		</dependencies>  
 		<build>
 		 <finalName>container-test</finalName>
-	    <sourceDirectory>target</sourceDirectory>
+	    <sourceDirectory>libs</sourceDirectory>
     <plugins>
   
         <plugin>
